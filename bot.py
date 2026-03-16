@@ -181,4 +181,4 @@ def handle_docs(message):
 
 
 print("Bot jalan...")
-bot.infinity_polling()
+bot.infinity_polling(timeout=60, long_polling_timeout=60)
